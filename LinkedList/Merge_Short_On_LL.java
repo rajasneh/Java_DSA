@@ -80,15 +80,15 @@ public class Merge_Short_On_LL {
         head=newNode;
     }
     public static void main(String args[]){
-       // Merge_Short_On_LL ll =new Merge_Short_On_LL();
-        // ll.addfirst(1);
-        // ll.addfirst(2);
-        // ll.addfirst(3);
-        // ll.addfirst(4);
-        // ll.addfirst(5);
+       Merge_Short_On_LL ll =new Merge_Short_On_LL();
+        ll.addfirst(1);
+        ll.addfirst(2);
+        ll.addfirst(3);
+        ll.addfirst(4);
+        ll.addfirst(5);
         printll();
         
-        // ll.head = ll.MergeSort(ll.head);
+        ll.head = ll.MergeSort(ll.head);
        
         printll();;
      }
