@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 public class cnvrt_to_UPPERcase {
     public static String converttouppercase(String str){

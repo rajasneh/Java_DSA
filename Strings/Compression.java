@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 public class Compression {
     public static String Compressionno(String str){

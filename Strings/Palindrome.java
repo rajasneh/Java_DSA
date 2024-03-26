@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 public class Palindrome {
     public static boolean checkPalindrome(String str){
         for(int i=0;i<str.length()/2;i++){

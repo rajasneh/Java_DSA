@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 public class _01Anargrams {
     public static boolean checkanargram(String str1,String str2){

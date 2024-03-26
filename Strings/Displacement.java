@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 public class Displacement {
     public static float checkshortestpath(String path){

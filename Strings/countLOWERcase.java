@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 public class countLOWERcase {
     public static int lowercase(String str){
