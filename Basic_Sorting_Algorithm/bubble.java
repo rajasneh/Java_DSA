@@ -1,4 +1,4 @@
-package Sorting;
+package Basic_Sorting_Algorithm;
 
 public class bubble {
     public static void bubblesort(int number[]){

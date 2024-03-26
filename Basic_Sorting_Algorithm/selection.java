@@ -1,4 +1,4 @@
-package Sorting;
+package Basic_Sorting_Algorithm;
 public class selection {
     public static void selectionsort(int number[]){
         for(int i=0;i<number.length-1;i++){
