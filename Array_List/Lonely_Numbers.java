@@ -1,4 +1,4 @@
-package ArrayList;
+package Array_List;
 import java.util.*;
 public class Lonely_Numbers {
     public static ArrayList<Integer> checklonely(ArrayList<Integer>arr){
