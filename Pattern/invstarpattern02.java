@@ -1,4 +1,4 @@
-package LOOPS;
+package Pattern;
 import java.util.*;
 public class invstarpattern02 {
     public static void main(String[] args){

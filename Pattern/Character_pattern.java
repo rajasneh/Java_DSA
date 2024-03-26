@@ -1,5 +1,4 @@
-package Java_DSA.Pattern;
-
+package Pattern;
 import java.util.Scanner;
 
 public class Character_pattern {

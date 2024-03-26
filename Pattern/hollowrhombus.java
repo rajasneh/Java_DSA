@@ -1,4 +1,4 @@
-package LOOPS;
+package Pattern;
 
 import java.util.Scanner;
 

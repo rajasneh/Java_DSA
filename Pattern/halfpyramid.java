@@ -1,4 +1,4 @@
-package LOOPS;
+package Pattern;
 import java.util.*;
 public class halfpyramid {
     public static void main(String[] args){
