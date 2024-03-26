@@ -1,5 +1,4 @@
 package LinkedList;
-
 public class Merge_Short_On_LL {
     public Node getmid(Node Head){
         Node fast=Head.Next;//we have consider the last node of first half as mid 
@@ -94,4 +93,3 @@ public class Merge_Short_On_LL {
         printll();;
      }
 }
-
