@@ -1,4 +1,4 @@
-package _2D_Arrays;
+package Array;
 
 public class _01stairCASEsorting {
     public static boolean staircase(int matrix[][],int key){

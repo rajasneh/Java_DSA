@@ -1,4 +1,4 @@
-package Array_or_Methods;
+package Array;
 
 public class PairsInArray {
     public static void PairsOFArray(int number[]){

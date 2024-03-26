@@ -1,4 +1,4 @@
-package _2D_Arrays;
+package Array;
 
 public class Spiral_Matrix {
     public static void printspiralmatrix(int matrix[][]){

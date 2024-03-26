@@ -1,4 +1,4 @@
-package Array_or_Methods;
+package Array;
 
 public class _01_maxSubArraySum {
     public static void subarray(int number[]){

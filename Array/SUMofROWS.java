@@ -1,4 +1,4 @@
-package _2D_ARRAY;
+package Array;
 
 public class SUMofROWS {
     public static int sumofrowss(int matrix[][],int numberofrows){

@@ -1,4 +1,4 @@
-package _2D_Arrays;
+package Array;
 
 public class _01SumofDiagnol {
     public static int sumofmatrix(int matrix[][]){

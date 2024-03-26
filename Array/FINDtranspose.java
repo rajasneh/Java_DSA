@@ -1,4 +1,4 @@
-package _2D_ARRAY;
+package Array;
 
 public class FINDtranspose {
     public static void findtranspose(int matrix[][]){

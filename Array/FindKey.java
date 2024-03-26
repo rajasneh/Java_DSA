@@ -1,4 +1,4 @@
-package Array_or_Methods;
+package Array;
 import java.util.*;
 public class FindKey {
     public static int findkey(int numbers[],int key){

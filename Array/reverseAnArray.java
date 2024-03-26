@@ -1,4 +1,4 @@
-package Array_or_Methods;
+package Array;
 
 public class reverseAnArray {
     public static void revarr(int number[]){

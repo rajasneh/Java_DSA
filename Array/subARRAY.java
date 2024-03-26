@@ -1,4 +1,4 @@
-package Array_or_Methods;
+package Array;
 
 public class subARRAY {
     public static void subarray(int number[]){

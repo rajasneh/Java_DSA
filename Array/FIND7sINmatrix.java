@@ -1,4 +1,4 @@
-package _2D_ARRAY;
+package Array;
 
 public class FIND7sINmatrix {
     public static int findnumber(int matrix[][],int number){
