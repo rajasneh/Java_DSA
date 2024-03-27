@@ -1,5 +1,5 @@
 package LinkedList;
-public class DoublyLL_Dlt_firstNode {
+public class Reverse_A_Double_LL {
     static class Node{
         int data;
         Node next;
@@ -24,22 +24,6 @@ public class DoublyLL_Dlt_firstNode {
     public static Node Head;
     public static Node Tail;
     public static int size;
-    public int DeleteFirst(){
-        if(Head==null){
-            return Integer.MIN_VALUE;
-        }
-        if(size==1){
-            int val=Head.data;
-            Head=Tail=null;
-            size--;
-            return val;
-        }
-        int val=Head.data;
-        Head=Head.next;
-        Head.prev=null;
-        size--;
-        return val;
-    }
     public void print(){
         Node temp=Head;
         while (temp!=null) {
@@ -48,9 +32,22 @@ public class DoublyLL_Dlt_firstNode {
         }
         System.out.println();
     }
+    public void reverseLL(){
+        Node curr=Head;
+        Node prev=null;
+        Node next;
+        while (curr!=null) {
+            next=curr.next;
+            curr.next=prev;
+            curr.prev=next;
+            prev=curr;
+            curr=next;
+        }
+        Head=prev;
+    }
 
     public static void main(String args[]){
-        DoublyLL_Dlt_firstNode DLL=new DoublyLL_Dlt_firstNode();
+        Reverse_A_Double_LL DLL=new Reverse_A_Double_LL();
         DLL.AddFirst(10);
         DLL.AddFirst(9);
         DLL.AddFirst(8);
@@ -59,8 +56,10 @@ public class DoublyLL_Dlt_firstNode {
         DLL.AddFirst(5);
         DLL.AddFirst(4);
         DLL.print();
-        DLL.DeleteFirst();
+        DLL.reverseLL();
         DLL.print();
         System.out.print("Size of the Dobule LinkedList is "+size);
     }
 }
+
+
