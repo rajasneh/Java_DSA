@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/rajasneh28" target="blank"><img src="https://img.shields.io/twitter/follow/rajasneh28?logo=twitter&style=for-the-badge" alt="rajasneh28" /></a> </p>
 
-- 🔭 I’m currently working on [DSA](in Java)
+- 🔭 I’m currently working on [Problem Solving](in Java)
 
 - 🌱 I’m currently learning **Java**
 
