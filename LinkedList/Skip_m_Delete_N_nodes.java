@@ -36,7 +36,6 @@ public class Skip_m_Delete_N_nodes {
                 Node temp = t;
                 t = t.next;
             }
-            curr.next = t;
             curr = t;
         }
     }
