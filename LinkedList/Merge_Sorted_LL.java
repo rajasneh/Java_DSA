@@ -61,7 +61,6 @@ public class Merge_Sorted_LL {
     
         public static void main(String args[]) {
             int k = 3;
-            int n = 4;
             Node arr[] = new Node[k];
             arr[0] = new Node(1);
             arr[0].next = new Node(3);
