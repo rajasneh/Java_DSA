@@ -69,7 +69,7 @@ public class Merge_Short_On_LL {
     }
     public static Node head;
     public static Node tail;
-    public static void addfirst(int data){
+    public void addfirst(int data){
         //create new node
         Node newNode=new Node(data);
         if(head==null){
@@ -88,7 +88,7 @@ public class Merge_Short_On_LL {
         ll.addfirst(5);
         printll();
         
-        ll.head = ll.MergeSort(ll.head);
+        head = ll.MergeSort(head);
        
         printll();;
      }
