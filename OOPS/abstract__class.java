@@ -1,3 +1,4 @@
+package OOPS;
 public class abstract__class {
     public static void main(String args[]){
         horse h1=new horse();

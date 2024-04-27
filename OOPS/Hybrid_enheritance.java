@@ -1,4 +1,4 @@
-
+package OOPS;
 public class Hybrid_enheritance {
     public static void main(String args[]){
         cat mk=new cat();

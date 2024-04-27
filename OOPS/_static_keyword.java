@@ -1,3 +1,4 @@
+package OOPS;
 public class _static_keyword {
     public static void main(String args[]){
        // student s1=new student();

@@ -1,3 +1,4 @@
+package OOPS;
 public class _03_abstract_class {
     public static void main(String args[]){
         //mustang m1=new mustang();//for coming yellow mark remove comment before running

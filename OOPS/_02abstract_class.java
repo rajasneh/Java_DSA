@@ -1,5 +1,5 @@
 
-
+package OOPS;
 public class _02abstract_class {
     public static void main(String args[]){
         hen h1=new hen();

@@ -1,3 +1,4 @@
+package OOPS;
 public class method_overriding {
     public static void main(String args[]){
         deer d1=new deer();

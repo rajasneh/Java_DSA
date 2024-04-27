@@ -1,5 +1,5 @@
 
-
+package OOPS;
 public class Hierarchial_inheritance {
         public static void main(String args[]){
         human asneh=new human();

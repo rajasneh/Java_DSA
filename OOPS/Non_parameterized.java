@@ -1,4 +1,4 @@
-
+package OOPS;
 
 public class Non_parameterized {
     public static void main(String args[]){
