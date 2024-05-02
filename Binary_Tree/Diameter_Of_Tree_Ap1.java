@@ -1,6 +1,6 @@
 package Binary_Tree;
 
-public class Diameter_Of_Tree {
+public class Diameter_Of_Tree_Ap1 {
     static class node{
         int data;
         node left;
