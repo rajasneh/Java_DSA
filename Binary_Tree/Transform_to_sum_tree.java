@@ -22,7 +22,7 @@ public class Transform_to_sum_tree {
 
         int data=root.data;
 
-        int newleft=root.left == null ? 0 : root.left.data;
+        int newleft=root.left == null ? 0 : root.left.data;//if root.left is not null
         int newright=root.right==null ? 0 : root.right.data;
 
         root.data=newleft+leftChild+newright+rightChild;
