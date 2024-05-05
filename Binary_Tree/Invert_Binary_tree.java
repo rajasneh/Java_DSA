@@ -67,6 +67,7 @@ public class Invert_Binary_tree {
         root.left.right = new node(5);
         root.right.left = new node(6);
         root.right.right = new node(7);
+        LevelOrder(root);
         InvertTree(root);
         LevelOrder(root);
     }    
