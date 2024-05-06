@@ -46,7 +46,7 @@ public class Convert_BST_to_Balanced_BST {
         root=createBST(inorder, 0, inorder.size()-1);
         return root;
     }
-    public static void main(String args[]){
+     public static void main(String args[]){
         node root = new node (8);
         root.left = new node(6);
         root.left.left = new node(5);
