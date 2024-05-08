@@ -14,6 +14,9 @@ public class Insert_In_Heap {
                 int temp=arr.get(Childidx);
                 arr.set(Childidx, arr.get(Parentidx));
                 arr.set(Parentidx, temp);
+
+                Childidx=Parentidx;
+                Parentidx=(Childidx-1)/2;
             }
         }
     }

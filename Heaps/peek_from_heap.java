@@ -16,6 +16,9 @@ public class peek_from_heap {
                 int temp=arr.get(Childidx);
                 arr.set(Childidx, arr.get(Parentidx));
                 arr.set(Parentidx, temp);
+                
+                Childidx=Parentidx;
+                Parentidx=(Childidx-1)/2;
             }
         }
         public  int peek(){
