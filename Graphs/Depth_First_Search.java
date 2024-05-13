@@ -67,7 +67,6 @@ public class Depth_First_Search {
              \          |   /
                \        | /
                  2------4/
-
         */
         int V=7;
         ArrayList<Edge>[] graph = new ArrayList[7];
