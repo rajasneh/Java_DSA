@@ -1,35 +1,54 @@
 package Binary_Tree;
 
 public class Build_Tree_Preorder {
-    static class node{
+    // Node class for the binary tree
+    static class Node {
         int data;
-        node left;
-        node right;
+        Node left;
+        Node right;
 
-        node(int data){
-            this.data=data;
-            this.left=null;
-            this.right=null;
+        Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
         }
     }
-    static class BinaryTree{
-        static int idx=-1;
-        public static node BuildTree(int nodes[]){
-            idx++;
-            if(nodes[idx]==-1){
+
+    // BinaryTree class containing static methods for building and printing the tree
+    static class BinaryTree {
+        // Method to build tree from preorder traversal array
+        public static Node buildTree(int[] nodes, int[] index) {
+            if (index[0] >= nodes.length || nodes[index[0]] == -1) {
+                index[0]++;
                 return null;
             }
-            node NewNode=new node(nodes[idx]);
-            NewNode.left=BuildTree(nodes);
-            NewNode.right=BuildTree(nodes);
 
-            return NewNode;
+            Node newNode = new Node(nodes[index[0]++]);
+            newNode.left = buildTree(nodes, index);
+            newNode.right = buildTree(nodes, index);
+
+            return newNode;
+        }
+
+        // Static method to print the tree in-order for verification
+        public static void printInOrder(Node root) {
+            if (root != null) {
+                printInOrder(root.left);
+                System.out.print(root.data + " ");
+                printInOrder(root.right);
+            }
         }
     }
-    public static void main(String args[]){
-        int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        BinaryTree tree=new BinaryTree();
-        node root=tree.BuildTree(nodes);
-        System.out.println(root.data);
+
+    public static void main(String[] args) {
+        int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
+        int[] index = {0}; // Using an array to hold the index to be mutable
+
+        Node root = BinaryTree.buildTree(nodes, index);
+
+        // Print tree in-order to verify
+        System.out.println("In-order traversal of the tree:");
+        BinaryTree.printInOrder(root);
     }
 }
+
