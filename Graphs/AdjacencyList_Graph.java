@@ -32,6 +32,7 @@ public class AdjacencyList_Graph {
          */
         
         int v=5;//vertex
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>Graph[]=new ArrayList[v];
         
         for(int i=0;i<v;i++){

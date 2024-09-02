@@ -81,7 +81,7 @@ public class Cycle_undirected {
                \        | /
                  2------4/
         */
-        int V=7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
         System.out.print(detectCycle(graph));

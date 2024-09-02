@@ -84,6 +84,7 @@ public class Dijkstras_Algorithm {
 
     public static void main(String[] args) {
         int v = 7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[v];
         createGraph(graph);
         dijkstras(graph, 0);

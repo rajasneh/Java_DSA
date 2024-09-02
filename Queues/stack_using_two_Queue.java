@@ -5,12 +5,12 @@ public class stack_using_two_Queue {
         static Queue <Integer> Q1= new LinkedList<>();
         static Queue <Integer> Q2= new LinkedList<>();
 
-        public static boolean isEmpty(){
+        public  boolean isEmpty(){
             return Q1.isEmpty() && Q2.isEmpty();
         }
 
         //push in that queue which is not empty
-        public static void  push(int data){
+        public  void  push(int data){
             if(!Q1.isEmpty()){
                 Q1.add(data);
             }else{
@@ -18,7 +18,7 @@ public class stack_using_two_Queue {
             }
         }
 
-        public static int pop(){
+        public  int pop(){
             if(isEmpty()){
                 System.out.println("Empty Stack");
                 return -1;
@@ -43,7 +43,7 @@ public class stack_using_two_Queue {
                 }
             return top;
         }
-        public static int peek(){
+        public  int peek(){
             if(isEmpty()){
                 System.out.println("Empty Stack");
                 return -1;

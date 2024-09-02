@@ -8,7 +8,8 @@ public class Iteration_On_HashSet {
         set.add("Jamtara");
         set.add("Bengaluru");
 
-        Iterator i=set.iterator();
+        
+        Iterator<String> i=set.iterator();
         while (i.hasNext()) {
             System.out.println(i.next());
         }

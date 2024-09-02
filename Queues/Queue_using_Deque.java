@@ -5,17 +5,17 @@ public class Queue_using_Deque {
         static Deque <Integer> dq = new LinkedList<>();
 
         //add
-        public static void add(int data ){
+        public  void add(int data ){
             dq.addLast(data);
         }
 
         //remove
-        public static int remove(){
+        public  int remove(){
             return dq.removeFirst();
         }
 
         //peek
-        public static int peek(){
+        public  int peek(){
             return dq.getFirst();
         }
     }

@@ -85,8 +85,9 @@ public class Bipartite_Graph {
                \        | /
                  2------4/
         */
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
-         System.out.println(isBipartite(graph));
+         System.out.println(isBipartite(graph));     
     } 
 }

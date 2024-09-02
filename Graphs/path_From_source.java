@@ -38,6 +38,7 @@ public class path_From_source {
     }
     public static void main(String[] args) {
         int v = 7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[v];
         createGraph(graph);
         AllPath(graph, 5, 1, "");

@@ -5,18 +5,18 @@ public class Stack_using_Deque {
        static Deque <Integer>dq = new LinkedList<>();
 
         //push
-        public static void push(int data){
+        public  void push(int data){
             dq.addLast(data);
         }
 
         //pop
-        public static int pop(){
+        public  int pop(){
             return dq.removeLast();
         }
 
         //peek
 
-        public static int peek(){
+        public  int peek(){
             return dq.getLast();
         }
     }

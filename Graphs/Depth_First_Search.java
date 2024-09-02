@@ -1,8 +1,7 @@
 package Graphs;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+
 
 public class Depth_First_Search {
      static class Edge {
@@ -69,6 +68,7 @@ public class Depth_First_Search {
                  2------4/
         */
         int V=7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
          dfs(graph, 0, new boolean[V]);

@@ -51,6 +51,7 @@ public class Topological_Sorting_DFS {
         s.push(curr);
     }
     public static void main(String args[]){
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
 

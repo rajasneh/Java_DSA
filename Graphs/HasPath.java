@@ -68,6 +68,7 @@ public class HasPath {
                  2------4/
         */
         int V=7;
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
          System.out.println(haspath(graph, 0, 5, new boolean[V]));

@@ -61,6 +61,7 @@ public class Cycle_directed {
         return false;
     }
     public static void main(String args[]){
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
 

@@ -5,10 +5,10 @@ public class Queue_using_two_stacks {
         static Stack <Integer> s1= new Stack<>();
         static Stack <Integer> s2= new Stack<>();
 
-        public static boolean isEmpty(){
+        public  boolean isEmpty(){
             return s1.isEmpty();
         }
-        public static void add(int data){//o(n)
+        public  void add(int data){//o(n)
             while (!s1.isEmpty()) {
                 s2.push(s1.pop());
             }
@@ -20,14 +20,14 @@ public class Queue_using_two_stacks {
             }
         }
 
-        public static int remove(){
+        public  int remove(){
             if (s1.isEmpty()) {
                 System.out.println("Queue is empty");
                 return -1;
             }
             return s1.pop();
         }
-        public static int peek(){
+        public  int peek(){
             if(s1.isEmpty()){
                 System.out.println("Queue is empty");
                 return -1;

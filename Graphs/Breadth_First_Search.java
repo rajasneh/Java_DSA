@@ -74,6 +74,7 @@ public class Breadth_First_Search {
                  2------4/
 
         */
+        @SuppressWarnings("unchecked")
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
         bfs(graph);

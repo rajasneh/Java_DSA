@@ -1,5 +1,4 @@
 package BinarySearch_Tree;
-import java.util.*;
 public class RangeSum {
     static class node{
         int data;
